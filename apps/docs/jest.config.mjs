@@ -1,4 +1,3 @@
-import type { Config } from '@jest/types'
 import nextJest from 'next/jest.js'
 
 const createJestConfig = nextJest({
@@ -6,7 +5,7 @@ const createJestConfig = nextJest({
   dir: './',
 })
 
-const config: Config.InitialOptions = {
+const config = {
   setupFilesAfterEnv: ['@testing-library/jest-dom/extend-expect'],
   testEnvironment: 'jsdom',
 }
