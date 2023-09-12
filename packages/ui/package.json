@@ -110,6 +110,7 @@
     "style-dictionary": "^3.7.1",
     "tsconfig-paths-webpack-plugin": "^4.0.1",
     "typescript": "^5.0.4",
-    "ts-jest": "^29.1.1"
+    "ts-jest": "^29.1.1",
+    "jest-environment-jsdom": "^29.7.0"
   }
 }
