@@ -12,12 +12,6 @@ const config = {
   testEnvironment: 'jsdom',
   testTimeout: 10000,
   testRegex: '(.*\\.test.(js|jsx|ts|tsx)$)',
-  transform: { '^.+\\.(t|j)sx?$': 'ts-jest' },
-  globals: {
-    'ts-jest': {
-      tsconfig: 'tsconfig.test.json',
-    },
-  },
   maxConcurrency: 3,
   maxWorkers: '50%',
   moduleNameMapper: {
